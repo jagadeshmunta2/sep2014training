@@ -54,8 +54,8 @@ public class ParamCalculatorTest {
 	public void addTest1() {
 		int r = Calculator.add(a, b);
 		assertEquals("Addition is not correct", e, r );
-		String os = rev(is);
-		//String es = "hello";
+		String os = "hello"; //rev(is);
+		String es = "hello";
 		assertEquals("Strings are not equal",es, os);
 	}
 	
